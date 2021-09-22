@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>html form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1><span>Con<sub>t</sub>act Me</span></h1>
+<form action="#" method="Post">
+<label>First Name</label><br/>
+<input type="text" name="firstName" value="Enter your first name"/><br/>
+<label>Surname</label><br/>
+<input type="text" name="Surname" value="Enter your surname"/><br/>
+<label>Age</label><br/>
+<input type="number" name="age" value="25"/><br/>
+<label>Select background colour</label>
+<select onchange="color(this.value)">
+    <option>Select</option>
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="gray">Gray</option>
+    <option value="yellow">Yellow</option>
+    <option value="lightskyblue">Lightskyblue</option>
+    <option value="pink">Pink</option>
+    <option value="green">Green</option>
+    <option value="black">Black</option>
+<option value="coral">Coral</option>
+</select><br/>
+<label>Choose the gender:</label><br/>
+<input type="radio" name="gender" value="1"/>Male<br/>
+<input type="radio" name="gender" value="2"/>Female<br/>
+<input type="submit" name="submit" value="Next"/>
+
+  <script src="img/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
